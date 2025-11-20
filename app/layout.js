@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
                             enableSystem
                             disableTransitionOnChange
                         >
-                            <main className=" bg-violet-950 min-h-screen text-white overflow-x-hidden">
+                            <main className=" bg-violet-950 min-h-[2000px] text-white overflow-x-hidden">
                                 <FloatingShapes/>
                                 <Toaster richColors />
                                 {children}

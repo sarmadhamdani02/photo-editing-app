@@ -4,6 +4,7 @@ import { ConvexClientProvider } from "./ConvexClientProvider";
 import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "sonner";
 import FloatingShapes from "@/components/FloatingShapes";
+import Header from "@/components/ui/Header";
 
 
 import {
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
                             enableSystem
                             disableTransitionOnChange
                         >
+                            <Header/>
                             <main className=" bg-violet-950 min-h-[2000px] text-white overflow-x-hidden">
                                 <FloatingShapes/>
                                 <Toaster richColors />
